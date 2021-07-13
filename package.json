@@ -4,8 +4,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "test": "cross-env NODE_ENV=testing jest --watch --verbose"
+    "test": "jest --watchAll --verbose"
   },
+  "dependencies": {},
   "devDependencies": {
     "@types/jest": "^26.0.23",
     "cross-env": "^7.0.3",
